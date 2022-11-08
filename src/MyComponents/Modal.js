@@ -120,6 +120,8 @@ const Modal = () => {
       localStorage.setItem("localCard" , JSON.stringify([...cardsList, card]))
       console.log(cardsList)
     }
+     setDescription('')
+     setTitle('')
 
   }
 
